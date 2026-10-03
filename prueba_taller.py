@@ -8,7 +8,7 @@ db = []
 #Un bucle que repite N veces el proceso. Una vez por registro
 for i in range(N):
     #c con cada repetición recibira un input del usuario separados por espacios que representan las diferentes características de las ruedas
-    print("Ingrese:\nDiametro Grosor Ancho Precio")
+    print("Ingrese los parametros de los patines: ")
     c=input() 
     #Por cada " " que encuentre separa esa linea, para hacer una cadena de Strings
     db.append(c.split(' ')) #Luego añade esa cadena en el orden que ingresaron a la base de datos "db"
